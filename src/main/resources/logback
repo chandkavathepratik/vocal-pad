@@ -1,0 +1,33 @@
+<configuration>
+
+    <appenders name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} %class{1}.%method - %msg%n
+            </pattern>
+        </encoder>
+    </appenders>
+
+    <appenders name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            keepApp.log
+        </file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>keepApp-%d{yy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>10</maxHistory>
+
+        </rollingPolicy>
+        <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appenders>
+
+    <root level="ERROR">
+        <appender-ref ref="consoleAppender" />
+        <appender-ref ref="fileAppender" />
+    </root>
+
+</configuration>

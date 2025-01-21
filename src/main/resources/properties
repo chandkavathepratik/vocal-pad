@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: VocalPad
+
+  server:
+    port: 8081
+    servlet:
+      context-path: /vocal-pad
+
+  data:
+    mongodb:
+      uri: ${mongo_uri}
+      database: vocal_pad
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${email}
+    password: ${pass}
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+
+springdoc:
+  swagger-ui:
+    enabled: true
+  api-docs:
+    enabled: true
+
+voice_id: ${voice_id}
+voice_api_key: ${voice_api_key}
