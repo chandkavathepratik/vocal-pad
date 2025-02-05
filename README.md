@@ -6,6 +6,12 @@ This app allows users to register, authenticate using basic authentication with 
 and manage their personal notes. The app also integrates with an external API (Eleven Labs) to convert notes to voice,
 with the ability to download and listen to the voice files.
 
+Project is live at:
+
+ ```bash
+https://vocalpad-cf3e33b475f4.herokuapp.com/
+```
+
 ## Features
 
 - **User Registration and Authentication**
