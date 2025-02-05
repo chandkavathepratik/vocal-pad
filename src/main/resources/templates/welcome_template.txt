@@ -1,6 +1,6 @@
 Hello {name},
 
-🎉 **Welcome to Vocal Pad!** 🎉
+🎉 Welcome to Vocal Pad! 🎉
 
 We’re thrilled to have you on board! Vocal Pad is here to help you manage your personal notes and even turn them into voice files with ease.
 Whether you’re journaling, taking quick notes, or organizing your thoughts, we’ve got you covered!
@@ -9,22 +9,22 @@ Here's a quick look at some of the features you'll love:
 
 ---
 
-📝 **Effortless Note Management**
+📝 Effortless Note Management
 - Write, update, or delete your notes.
 - Easily search for specific content or organize your notes.
 - Move your important notes to archives or trash them when you’re done.
 
-🎤 **Voice Conversion of Notes**
+🎤 Voice Conversion of Notes
 - Convert your written notes into voice in just one click.
 - Download or listen your notes as audio, anytime!
 
-🔐 **Enhanced Security**
+🔐 Enhanced Security
 - Your personal information and notes are protected with the latest security protocols.
 
 ---
 
-🔑 **Getting Started**
-To get started, simply [Login](http://localhost:8080/login) to your account and begin exploring all the features. You can also check out the app's API and endpoints via Swagger UI at [Swagger UI](http://localhost:8080/swagger-ui/index.html).
+🔑 Getting Started
+To get started, simply [Login](https://vocalpad-cf3e33b475f4.herokuapp.com/swagger-ui/index.html#/Login%20-%20Signup%20APIs/login) to your account and begin exploring all the features. You can also check out the app's API and endpoints via Swagger UI at [Swagger UI](https://vocalpad-cf3e33b475f4.herokuapp.com/swagger-ui/index.html).
 
 ---
 
